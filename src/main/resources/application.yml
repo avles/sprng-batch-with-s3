@@ -1,0 +1,27 @@
+#Application properties
+#server:
+#  port: 8081
+
+#AWS properties
+cloud:
+  aws:
+    region:
+      static: us-east-1
+    stack:
+      auto: false
+    credentials:
+      #accessKey: PzoNfDleDHMiLncw
+      #secretKey: 8w06lkloZlJalMv8ND5pxWtOC6gOj6hT
+      accessKey: AKIA3QURKRMKLGP7ZFFQ
+      secretKey: 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
+
+application:
+  bucket:
+    name: fiserv
+
+logging:
+  level:
+    com:
+      amazonaws:
+        util:
+          EC2MetadataUtils: error
